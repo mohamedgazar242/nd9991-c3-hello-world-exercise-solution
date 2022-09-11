@@ -103,5 +103,4 @@ workflows:
   my_workflow:
     # Run the welcome/run job in its own container
     jobs:
-    - myjob1
     - create_infrastructure
